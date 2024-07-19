@@ -1,0 +1,23 @@
+uuid: 507ee97e-554a-48c9-91f9-6579b56ea2ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_official_website
+    - node.type.waterfall
+  module:
+    - link
+id: node.waterfall.field_official_website
+field_name: field_official_website
+entity_type: node
+bundle: waterfall
+label: 'Official Website'
+description: 'external link to the official waterfall website'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 16
+field_type: link

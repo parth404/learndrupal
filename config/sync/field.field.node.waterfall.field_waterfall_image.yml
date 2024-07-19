@@ -1,0 +1,29 @@
+uuid: 75bc6e1c-6b73-466a-98c2-54f91a5fd81b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_waterfall_image
+    - media.type.image
+    - node.type.waterfall
+id: node.waterfall.field_waterfall_image
+field_name: field_waterfall_image
+entity_type: node
+bundle: waterfall
+label: 'Waterfall Image'
+description: 'Upload an image of the waterfall that is at least 500x500 pixels'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
