@@ -5,11 +5,13 @@ dependencies:
   config:
     - node.type.article
     - node.type.page
+    - node.type.waterfall
     - taxonomy.vocabulary.tags
   module:
     - comment
     - contextual
     - file
+    - media
     - node
     - path
     - system
@@ -19,29 +21,58 @@ _core:
   default_config_hash: e_wG1u7SrGaJbY2-Szgbgl-c8T3kdirU3uTNq2c_QJQ
 id: content_editor
 label: 'Content editor'
-weight: 2
+weight: -7
 is_admin: false
 permissions:
   - 'access administration pages'
+  - 'access content'
   - 'access content overview'
   - 'access contextual links'
   - 'access files overview'
+  - 'access media overview'
   - 'access toolbar'
+  - 'administer nodes'
   - 'administer url aliases'
+  - 'bypass node access'
   - 'create article content'
+  - 'create media'
   - 'create page content'
   - 'create terms in tags'
   - 'create url aliases'
+  - 'create waterfall content'
+  - 'delete all revisions'
+  - 'delete any article content'
+  - 'delete any media'
+  - 'delete any page content'
+  - 'delete any waterfall content'
   - 'delete article revisions'
+  - 'delete media'
   - 'delete own article content'
   - 'delete own files'
   - 'delete own page content'
+  - 'delete own waterfall content'
   - 'delete page revisions'
+  - 'delete waterfall revisions'
+  - 'edit any article content'
+  - 'edit any page content'
+  - 'edit any waterfall content'
   - 'edit own article content'
   - 'edit own comments'
   - 'edit own page content'
+  - 'edit own waterfall content'
   - 'edit terms in tags'
   - 'revert all revisions'
+  - 'revert article revisions'
+  - 'revert page revisions'
+  - 'revert waterfall revisions'
+  - 'update any media'
+  - 'update media'
+  - 'view all media revisions'
   - 'view all revisions'
+  - 'view article revisions'
+  - 'view media'
   - 'view own unpublished content'
+  - 'view own unpublished media'
+  - 'view page revisions'
   - 'view the administration theme'
+  - 'view waterfall revisions'

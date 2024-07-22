@@ -1,6 +1,6 @@
 uuid: b1bd852c-f589-400d-bcba-f92185b298a7
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - node
@@ -10,8 +10,8 @@ _core:
   default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
 id: olivero_syndicate
 theme: olivero
-region: social
-weight: 0
+region: footer_bottom
+weight: -6
 provider: null
 plugin: node_syndicate_block
 settings:
