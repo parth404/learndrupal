@@ -1,0 +1,19 @@
+uuid: 9521139d-ac47-42e3-9264-554b0ed375ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+    - field.storage.comment.field_email
+id: comment.comment.field_email
+field_name: field_email
+entity_type: comment
+bundle: comment
+label: Email
+description: 'Enter your email to add comments'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email
