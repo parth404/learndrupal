@@ -7,8 +7,61 @@ dependencies:
     - field.field.node.page.field_author
     - node.type.page
   module:
+    - layout_builder
     - text
     - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          72910443-8de5-4829-bca0-1c0c1a484854:
+            uuid: 72910443-8de5-4829-bca0-1c0c1a484854
+            region: content
+            configuration:
+              id: 'field_block:node:page:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          a33a577e-ac88-478d-b249-2823f3557dc7:
+            uuid: a33a577e-ac88-478d-b249-2823f3557dc7
+            region: content
+            configuration:
+              id: 'extra_field_block:node:page:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 1
+            additional: {  }
+          f491d730-119a-4eac-8c75-713c542c986f:
+            uuid: f491d730-119a-4eac-8c75-713c542c986f
+            region: content
+            configuration:
+              id: 'field_block:node:page:field_author'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_label
+                label: inline
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+        third_party_settings: {  }
 _core:
   default_config_hash: M_Y8L5tfmhx7DR143E05YyZSpvgil6VFvqcfBWykalg
 id: node.page.default

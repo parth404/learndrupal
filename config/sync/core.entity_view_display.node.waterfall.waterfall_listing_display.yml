@@ -1,6 +1,6 @@
 uuid: bca76daf-90bc-4554-868d-1f9c3c562145
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - core.entity_view_mode.node.waterfall_listing_display
