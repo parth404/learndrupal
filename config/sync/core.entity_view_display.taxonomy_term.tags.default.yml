@@ -1,0 +1,86 @@
+uuid: 70db8a61-16c1-4b07-b668-4b1b0db70d02
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tags
+    - views.view.duplicate_of_waterfall_listing
+    - views.view.waterfall_listing
+  module:
+    - layout_builder
+    - layout_discovery
+    - text
+    - views
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+          column_widths: 50-50
+        components:
+          5a6db9df-ffc4-4c2a-aa64-a7d5c864d7e8:
+            uuid: 5a6db9df-ffc4-4c2a-aa64-a7d5c864d7e8
+            region: first
+            configuration:
+              id: 'views_block:waterfall_listing-block_1'
+              label: ''
+              label_display: visible
+              provider: views
+              context_mapping: {  }
+              views_label: ''
+              items_per_page: none
+            weight: 0
+            additional: {  }
+          5e6499d8-5509-4659-a806-a7f07b047c2f:
+            uuid: 5e6499d8-5509-4659-a806-a7f07b047c2f
+            region: second
+            configuration:
+              id: 'views_block:duplicate_of_waterfall_listing-block_1'
+              label: ''
+              label_display: visible
+              provider: views
+              context_mapping: {  }
+              views_label: ''
+              items_per_page: none
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          38ed6e0e-604b-4a6b-912e-8e28d7b5f3b4:
+            uuid: 38ed6e0e-604b-4a6b-912e-8e28d7b5f3b4
+            region: content
+            configuration:
+              id: 'field_block:taxonomy_term:tags:description'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+id: taxonomy_term.tags.default
+targetEntityType: taxonomy_term
+bundle: tags
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
