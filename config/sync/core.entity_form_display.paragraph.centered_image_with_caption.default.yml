@@ -1,0 +1,40 @@
+uuid: 533a5a0e-1bf9-4765-9f91-cc74c798a94c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.centered_image_with_caption.field_caption
+    - field.field.paragraph.centered_image_with_caption.field_image
+    - paragraphs.paragraphs_type.centered_image_with_caption
+  module:
+    - field_layout
+    - layout_discovery
+    - media_library
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: paragraph.centered_image_with_caption.default
+targetEntityType: paragraph
+bundle: centered_image_with_caption
+mode: default
+content:
+  field_caption:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_image:
+    type: media_library_widget
+    weight: 0
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

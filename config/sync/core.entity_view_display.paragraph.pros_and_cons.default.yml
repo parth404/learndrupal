@@ -1,0 +1,74 @@
+uuid: b4a5a092-fb21-41d9-b5ae-9399f6fc0774
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pros_and_cons.field_cons
+    - field.field.paragraph.pros_and_cons.field_pros_and_cons
+    - paragraphs.paragraphs_type.pros_and_cons
+  module:
+    - layout_builder
+    - text
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+          column_widths: 50-50
+        components:
+          18725c2e-95a2-4831-aa32-74b3fcf74af8:
+            uuid: 18725c2e-95a2-4831-aa32-74b3fcf74af8
+            region: first
+            configuration:
+              id: 'field_block:paragraph:pros_and_cons:field_pros_and_cons'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          5e76b7a5-d041-43e7-be06-ef1ed70aa180:
+            uuid: 5e76b7a5-d041-43e7-be06-ef1ed70aa180
+            region: second
+            configuration:
+              id: 'field_block:paragraph:pros_and_cons:field_cons'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+id: paragraph.pros_and_cons.default
+targetEntityType: paragraph
+bundle: pros_and_cons
+mode: default
+content:
+  field_cons:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_pros_and_cons:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

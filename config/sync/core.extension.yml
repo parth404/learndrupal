@@ -26,7 +26,9 @@ module:
   embed: 0
   entity_browser: 0
   entity_embed: 0
+  entity_reference_revisions: 0
   field: 0
+  field_layout: 0
   field_ui: 0
   file: 0
   filter: 0
@@ -52,6 +54,7 @@ module:
   oembed_providers: 0
   options: 0
   page_cache: 0
+  paragraphs_type_permissions: 0
   path: 0
   path_alias: 0
   search: 0
@@ -66,10 +69,12 @@ module:
   views_ui: 0
   pathauto: 1
   views: 10
+  paragraphs: 11
   standard: 1000
 theme:
   olivero: 0
   claro: 0
   stark: 0
   gin: 0
+  customolivero: 0
 profile: standard

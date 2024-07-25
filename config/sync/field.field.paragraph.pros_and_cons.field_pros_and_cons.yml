@@ -1,0 +1,24 @@
+uuid: 01a93901-a52d-4f51-9dc8-2d2da91737ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pros_and_cons
+    - filter.format.basic_html
+    - paragraphs.paragraphs_type.pros_and_cons
+  module:
+    - text
+id: paragraph.pros_and_cons.field_pros_and_cons
+field_name: field_pros_and_cons
+entity_type: paragraph
+bundle: pros_and_cons
+label: Pros
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

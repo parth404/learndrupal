@@ -1,0 +1,19 @@
+uuid: 36d9a9ac-fd14-4903-85f7-c78e6f91040a
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_pros_and_cons
+field_name: field_pros_and_cons
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,24 @@
+uuid: c7e0131b-de3c-4fb2-aa1b-4bf38e0c8069
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.waterfall_listing
+  module:
+    - views
+  theme:
+    - customolivero
+id: customolivero_views_block__waterfall_listing_block_1
+theme: customolivero
+region: sidebar_first
+weight: -9
+provider: null
+plugin: 'views_block:waterfall_listing-block_1'
+settings:
+  id: 'views_block:waterfall_listing-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

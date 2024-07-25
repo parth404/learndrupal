@@ -1,0 +1,39 @@
+uuid: 3e622789-8b99-4584-b9c7-efa939d4d210
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.centered_image_with_caption.field_caption
+    - field.field.paragraph.centered_image_with_caption.field_image
+    - image.style.focal_point_scale_and_crop_400x400
+    - paragraphs.paragraphs_type.centered_image_with_caption
+  module:
+    - media_directories_editor
+id: paragraph.centered_image_with_caption.default
+targetEntityType: paragraph
+bundle: centered_image_with_caption
+mode: default
+content:
+  field_caption:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_image:
+    type: media_directories_image_dimensions
+    label: hidden
+    settings:
+      image_style: focal_point_scale_and_crop_400x400
+      image_link: ''
+      image_loading:
+        attribute: lazy
+      dimensions:
+        image_width: ''
+        image_height: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

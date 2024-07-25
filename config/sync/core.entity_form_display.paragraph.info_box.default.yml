@@ -1,0 +1,33 @@
+uuid: 89cea489-88fc-41ab-867b-9121454cbfc7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.info_box.field_info_box
+    - paragraphs.paragraphs_type.info_box
+  module:
+    - field_layout
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: paragraph.info_box.default
+targetEntityType: paragraph
+bundle: info_box
+mode: default
+content:
+  field_info_box:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

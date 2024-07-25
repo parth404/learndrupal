@@ -1,0 +1,51 @@
+uuid: 7f26b71c-7e23-4844-9deb-c3f63d12b096
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body_text
+    - node.type.paragraph_article
+    - paragraphs.paragraphs_type.body_text
+    - paragraphs.paragraphs_type.centered_image
+    - paragraphs.paragraphs_type.centered_image_with_caption
+    - paragraphs.paragraphs_type.info_box
+    - paragraphs.paragraphs_type.pros_and_cons
+  module:
+    - entity_reference_revisions
+id: node.paragraph_article.field_body_text
+field_name: field_body_text
+entity_type: node
+bundle: paragraph_article
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      body_text: body_text
+      centered_image: centered_image
+      centered_image_with_caption: centered_image_with_caption
+      info_box: info_box
+      pros_and_cons: pros_and_cons
+    negate: 0
+    target_bundles_drag_drop:
+      body_text:
+        weight: 2
+        enabled: true
+      centered_image:
+        weight: 4
+        enabled: true
+      centered_image_with_caption:
+        weight: 6
+        enabled: true
+      info_box:
+        weight: 8
+        enabled: true
+      pros_and_cons:
+        weight: 10
+        enabled: true
+field_type: entity_reference_revisions

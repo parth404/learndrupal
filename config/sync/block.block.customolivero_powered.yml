@@ -1,0 +1,22 @@
+uuid: 2018af64-9acc-4272-b3ac-b9e6cf3856a8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - customolivero
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: customolivero_powered
+theme: customolivero
+region: sidebar_first
+weight: -8
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

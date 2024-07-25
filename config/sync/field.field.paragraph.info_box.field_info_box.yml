@@ -1,0 +1,29 @@
+uuid: 79d27b40-d6a2-4bcf-acab-7fc68d6992ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_info_box
+    - node.type.info_box
+    - paragraphs.paragraphs_type.info_box
+id: paragraph.info_box.field_info_box
+field_name: field_info_box
+entity_type: paragraph
+bundle: info_box
+label: 'Info box'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      info_box: info_box
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

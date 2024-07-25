@@ -31,6 +31,7 @@
         "drupal/media_entity_file_replace": "^1.2",
         "drupal/media_library_bulk_upload": "^1.0",
         "drupal/oembed_providers": "^2.1",
+        "drupal/paragraphs": "^1.17",
         "drupal/pathauto": "^1.12",
         "drupal/token": "^1.14",
         "drush/drush": "^12.5"

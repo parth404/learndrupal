@@ -1,0 +1,18 @@
+uuid: a2168d32-1fbf-4c70-9584-f08adfe03fa1
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Paragraph Article'
+type: paragraph_article
+description: 'Article using paragraphs instead of body field'
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: false

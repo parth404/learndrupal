@@ -9,7 +9,14 @@ dependencies:
     - image.style.thumbnail
     - media.type.hero_image
   module:
+    - field_layout
     - image
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 id: media.hero_image.media_library
 targetEntityType: media
 bundle: hero_image

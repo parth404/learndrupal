@@ -1,0 +1,19 @@
+uuid: 82a49a70-ebe8-4b42-a933-69757eb29b87
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_caption
+    - paragraphs.paragraphs_type.centered_image_with_caption
+id: paragraph.centered_image_with_caption.field_caption
+field_name: field_caption
+entity_type: paragraph
+bundle: centered_image_with_caption
+label: Caption
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
