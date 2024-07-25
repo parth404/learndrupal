@@ -1,0 +1,29 @@
+uuid: dbbf86a4-7a75-44c2-826a-0df8af277eee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_local_audio
+    - media.type.audio
+    - node.type.article
+id: node.article.field_local_audio
+field_name: field_local_audio
+entity_type: node
+bundle: article
+label: 'Local Audio'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      audio: audio
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

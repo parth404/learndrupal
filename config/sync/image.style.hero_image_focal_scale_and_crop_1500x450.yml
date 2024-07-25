@@ -1,0 +1,17 @@
+uuid: 1af45e27-807a-4cd2-a887-096efa137169
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: hero_image_focal_scale_and_crop_1500x450
+label: 'Hero Image focal scale and crop 1500x450'
+effects:
+  e8a2c420-39a9-466d-b227-3e646f5e09a5:
+    uuid: e8a2c420-39a9-466d-b227-3e646f5e09a5
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 1500
+      height: 450
+      crop_type: focal_point

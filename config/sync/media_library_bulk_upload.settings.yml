@@ -1,0 +1,8 @@
+_core:
+  default_config_hash: svgeGwKCvGKCf_jsUiXDzDjpeT33RjeCr5M6SraE0eE
+media_types:
+  document: document
+  image: image
+  video: video
+  audio: '0'
+  remote_video: '0'

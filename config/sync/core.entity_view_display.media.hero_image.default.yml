@@ -1,0 +1,40 @@
+uuid: e44b05f3-e516-4935-8447-5eadc7a6fa06
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.hero_image.field_media_image_1
+    - field.field.media.hero_image.field_media_keywords
+    - image.style.large
+    - media.type.hero_image
+  module:
+    - image
+id: media.hero_image.default
+targetEntityType: media
+bundle: hero_image
+mode: default
+content:
+  field_media_image_1:
+    type: image
+    label: visually_hidden
+    settings:
+      image_link: ''
+      image_style: large
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_media_keywords:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

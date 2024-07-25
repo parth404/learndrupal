@@ -1,0 +1,17 @@
+uuid: 88817fd9-1dd2-408e-a35f-498fc2008d30
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: editor_800x400_focal_scale_and_crop
+label: 'Editor 800x400 focal scale and crop'
+effects:
+  8de5194b-bc1f-4ee3-bd05-62b11ea283af:
+    uuid: 8de5194b-bc1f-4ee3-bd05-62b11ea283af
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 800
+      height: 400
+      crop_type: focal_point
