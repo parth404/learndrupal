@@ -1,0 +1,20 @@
+uuid: 146d4e42-9adb-41d7-ac73-d056a335f079
+langcode: en
+status: true
+dependencies:
+  theme:
+    - customolivero
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: customolivero_page_title
+theme: customolivero
+region: sidebar_first
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

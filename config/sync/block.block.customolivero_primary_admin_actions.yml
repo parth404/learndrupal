@@ -1,0 +1,20 @@
+uuid: 3518df57-1756-4a6f-ad93-d03e3801bee6
+langcode: en
+status: true
+dependencies:
+  theme:
+    - customolivero
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: customolivero_primary_admin_actions
+theme: customolivero
+region: highlighted
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

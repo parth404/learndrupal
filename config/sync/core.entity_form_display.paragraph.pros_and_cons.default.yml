@@ -1,0 +1,42 @@
+uuid: fb7bbca5-008b-480a-b319-ab1b622e158f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pros_and_cons.field_cons
+    - field.field.paragraph.pros_and_cons.field_pros_and_cons
+    - paragraphs.paragraphs_type.pros_and_cons
+  module:
+    - field_layout
+    - layout_builder
+    - text
+third_party_settings:
+  field_layout:
+    id: layout_twocol_section
+    settings:
+      label: ''
+      column_widths: 50-50
+id: paragraph.pros_and_cons.default
+targetEntityType: paragraph
+bundle: pros_and_cons
+mode: default
+content:
+  field_cons:
+    type: text_textarea
+    weight: 1
+    region: second
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_pros_and_cons:
+    type: text_textarea
+    weight: 0
+    region: first
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

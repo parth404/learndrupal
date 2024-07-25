@@ -3,17 +3,26 @@ langcode: en
 status: true
 dependencies:
   config:
+    - filter.format.basic_html
+    - filter.format.full_html
+    - filter.format.restricted_html
     - node.type.article
+    - node.type.info_box
     - node.type.page
     - node.type.waterfall
     - taxonomy.vocabulary.tags
   module:
     - comment
+    - contact
     - contextual
     - file
+    - filter
     - media
     - node
+    - paragraphs
+    - paragraphs_type_permissions
     - path
+    - search
     - system
     - taxonomy
     - toolbar
@@ -25,18 +34,28 @@ weight: -7
 is_admin: false
 permissions:
   - 'access administration pages'
+  - 'access comments'
   - 'access content'
   - 'access content overview'
   - 'access contextual links'
   - 'access files overview'
   - 'access media overview'
+  - 'access site-wide contact form'
   - 'access toolbar'
+  - 'access user contact forms'
   - 'administer nodes'
+  - 'administer paragraphs types'
+  - 'administer search'
   - 'administer url aliases'
   - 'bypass node access'
   - 'create article content'
   - 'create media'
   - 'create page content'
+  - 'create paragraph content body_text'
+  - 'create paragraph content centered_image'
+  - 'create paragraph content centered_image_with_caption'
+  - 'create paragraph content info_box'
+  - 'create paragraph content pros_and_cons'
   - 'create terms in tags'
   - 'create url aliases'
   - 'create waterfall content'
@@ -52,27 +71,53 @@ permissions:
   - 'delete own page content'
   - 'delete own waterfall content'
   - 'delete page revisions'
+  - 'delete paragraph content body_text'
+  - 'delete paragraph content centered_image'
+  - 'delete paragraph content centered_image_with_caption'
+  - 'delete paragraph content info_box'
+  - 'delete paragraph content pros_and_cons'
   - 'delete waterfall revisions'
   - 'edit any article content'
+  - 'edit any info_box content'
   - 'edit any page content'
   - 'edit any waterfall content'
   - 'edit own article content'
   - 'edit own comments'
+  - 'edit own info_box content'
   - 'edit own page content'
   - 'edit own waterfall content'
   - 'edit terms in tags'
+  - 'post comments'
   - 'revert all revisions'
   - 'revert article revisions'
+  - 'revert info_box revisions'
   - 'revert page revisions'
   - 'revert waterfall revisions'
+  - 'search content'
+  - 'skip comment approval'
   - 'update any media'
   - 'update media'
+  - 'update paragraph content body_text'
+  - 'update paragraph content centered_image'
+  - 'update paragraph content centered_image_with_caption'
+  - 'update paragraph content info_box'
+  - 'update paragraph content pros_and_cons'
+  - 'use advanced search'
+  - 'use text format basic_html'
+  - 'use text format full_html'
+  - 'use text format restricted_html'
   - 'view all media revisions'
   - 'view all revisions'
   - 'view article revisions'
+  - 'view info_box revisions'
   - 'view media'
   - 'view own unpublished content'
   - 'view own unpublished media'
   - 'view page revisions'
+  - 'view paragraph content body_text'
+  - 'view paragraph content centered_image'
+  - 'view paragraph content centered_image_with_caption'
+  - 'view paragraph content info_box'
+  - 'view paragraph content pros_and_cons'
   - 'view the administration theme'
   - 'view waterfall revisions'

@@ -1,0 +1,31 @@
+uuid: 040fc146-1863-47a0-a70d-40c4f57ee0ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.centered_image.field_image
+    - paragraphs.paragraphs_type.centered_image
+  module:
+    - field_layout
+    - layout_discovery
+    - media_library
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: paragraph.centered_image.default
+targetEntityType: paragraph
+bundle: centered_image
+mode: default
+content:
+  field_image:
+    type: media_library_widget
+    weight: 0
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

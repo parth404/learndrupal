@@ -1,0 +1,24 @@
+uuid: c5a7f5fe-28db-4053-83ec-22e770252d82
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_body_text
+    - filter.format.basic_html
+    - paragraphs.paragraphs_type.body_text
+  module:
+    - text
+id: paragraph.body_text.field_body_text
+field_name: field_body_text
+entity_type: paragraph
+bundle: body_text
+label: 'body text'
+description: 'Enter the text of the article using this field'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

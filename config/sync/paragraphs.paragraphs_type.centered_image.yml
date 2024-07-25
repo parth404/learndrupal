@@ -1,0 +1,10 @@
+uuid: c255738e-f8dd-4d57-846e-c80e753e2c2d
+langcode: en
+status: true
+dependencies: {  }
+id: centered_image
+label: 'Centered Image'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

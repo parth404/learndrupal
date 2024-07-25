@@ -1,0 +1,42 @@
+uuid: 5265675f-3c72-404c-864b-35443e87f2c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.paragraph_article.comment
+    - field.field.node.paragraph_article.field_body_text
+    - field.field.node.paragraph_article.field_hero_image
+    - field.field.node.paragraph_article.field_tags
+    - node.type.paragraph_article
+  module:
+    - paragraphs
+    - user
+id: node.paragraph_article.teaser
+targetEntityType: node
+bundle: paragraph_article
+mode: teaser
+content:
+  field_body_text:
+    type: paragraph_summary
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_tags:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  comment: true
+  field_hero_image: true

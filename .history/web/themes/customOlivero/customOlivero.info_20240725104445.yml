@@ -1,0 +1,8 @@
+name: Custom Olivero
+type: theme
+base theme: olivero
+description: A custom theme based on the core Olivero theme
+core: 9.4.0
+
+libraries:
+  - customOlivero/global-css

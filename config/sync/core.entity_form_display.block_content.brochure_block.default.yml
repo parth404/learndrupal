@@ -7,8 +7,15 @@ dependencies:
     - field.field.block_content.brochure_block.body
     - field.field.block_content.brochure_block.field_waterfall_brochure
   module:
+    - field_layout
+    - layout_discovery
     - media_library
     - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 id: block_content.brochure_block.default
 targetEntityType: block_content
 bundle: brochure_block

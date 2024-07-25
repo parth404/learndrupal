@@ -14,10 +14,17 @@ dependencies:
     - field.field.node.waterfall.field_waterfall_video
     - node.type.waterfall
   module:
+    - field_layout
+    - layout_discovery
     - link
     - media_library
     - path
     - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 id: node.waterfall.default
 targetEntityType: node
 bundle: waterfall

@@ -1,0 +1,18 @@
+uuid: 182687d5-5dba-40ec-919a-24d33db846cc
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Info box'
+type: info_box
+description: 'Short pieces of information used to supplement articles'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,28 @@
+uuid: 095935f0-c81b-4174-acd3-9ab0616174f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.waterfall_listing_display
+    - field.field.node.paragraph_article.comment
+    - field.field.node.paragraph_article.field_body_text
+    - field.field.node.paragraph_article.field_hero_image
+    - field.field.node.paragraph_article.field_tags
+    - node.type.paragraph_article
+  module:
+    - user
+id: node.paragraph_article.waterfall_listing_display
+targetEntityType: node
+bundle: paragraph_article
+mode: waterfall_listing_display
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  comment: true
+  field_body_text: true
+  field_hero_image: true
+  field_tags: true

@@ -1,0 +1,10 @@
+uuid: 07022587-662c-44e1-b225-30ef50fde99a
+langcode: en
+status: true
+dependencies: {  }
+id: pros_and_cons
+label: 'Pros and Cons'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -8,8 +8,15 @@ dependencies:
     - image.style.thumbnail
     - media.type.image
   module:
+    - field_layout
     - focal_point
+    - layout_discovery
     - path
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 _core:
   default_config_hash: JSY4-JPyNZBiYYo6imdRYF6_SdtWQexPndrLvn3-vw4
 id: media.image.default
@@ -20,6 +27,12 @@ content:
   created:
     type: datetime_timestamp
     weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  directory:
+    type: options_select
+    weight: 2
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -74,4 +87,5 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  replace_file: true
