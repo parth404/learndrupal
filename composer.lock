@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4e9b48cd16fe57c20c87ffc096383bdf",
+    "content-hash": "8cefcda4b289e414d117c75809288eaa",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2619,6 +2619,96 @@
             ]
         },
         {
+            "name": "drupal/gutenberg",
+            "version": "3.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/gutenberg.git",
+                "reference": "3.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/gutenberg-3.0.2.zip",
+                "reference": "3.0.2",
+                "shasum": "4c6c8f4dcfc44eafaf0ff093599e9d67a2fac2f1"
+            },
+            "require": {
+                "drupal/core": "^9.5 || ^10",
+                "ext-json": "*",
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "phpspec/prophecy-phpunit": "^2"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.0.2",
+                    "datestamp": "1720280481",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Marco Fernandes (marcofernandes)",
+                    "homepage": "https://www.drupal.org/u/marcofernandes"
+                },
+                {
+                    "name": "Thor Andre Gretland (thorandre)",
+                    "homepage": "https://www.drupal.org/u/thorandre"
+                },
+                {
+                    "name": "Roberto Ornelas (roborn)",
+                    "homepage": "https://www.drupal.org/u/roborn"
+                },
+                {
+                    "name": "codebymikey",
+                    "homepage": "https://www.drupal.org/u/codebymikey"
+                },
+                {
+                    "name": "Stephan Zeidler (szeidler)",
+                    "homepage": "https://www.drupal.org/u/szeidler"
+                },
+                {
+                    "name": "marcofernandes",
+                    "homepage": "https://www.drupal.org/user/2127558"
+                },
+                {
+                    "name": "perandre",
+                    "homepage": "https://www.drupal.org/user/221337"
+                },
+                {
+                    "name": "roborn",
+                    "homepage": "https://www.drupal.org/user/139474"
+                },
+                {
+                    "name": "szeidler",
+                    "homepage": "https://www.drupal.org/user/767652"
+                },
+                {
+                    "name": "thorandre",
+                    "homepage": "https://www.drupal.org/user/223878"
+                },
+                {
+                    "name": "truls1502",
+                    "homepage": "https://www.drupal.org/user/325866"
+                }
+            ],
+            "description": "Drupal Gutenberg brings the powerful admin features of Gutenberg Editor to Drupal.",
+            "homepage": "https://www.drupal.org/project/gutenberg",
+            "support": {
+                "source": "https://git.drupalcode.org/project/gutenberg",
+                "issues": "https://www.drupal.org/project/issues/gutenberg"
+            }
+        },
+        {
             "name": "drupal/iek",
             "version": "1.3.0",
             "source": {
@@ -3017,6 +3107,66 @@
                 "source": "https://cgit.drupalcode.org/pathauto",
                 "issues": "https://www.drupal.org/project/issues/pathauto",
                 "documentation": "https://www.drupal.org/docs/8/modules/pathauto"
+            }
+        },
+        {
+            "name": "drupal/seven",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/seven.git",
+                "reference": "1.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/seven-1.0.0.zip",
+                "reference": "1.0.0",
+                "shasum": "88e86926388c7e6cf66b0502d13a0470ce2399cd"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.0",
+                    "datestamp": "1683652106",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "bnjmnm",
+                    "homepage": "https://www.drupal.org/user/2369194"
+                },
+                {
+                    "name": "lauriii",
+                    "homepage": "https://www.drupal.org/user/1078742"
+                },
+                {
+                    "name": "mcrittenden",
+                    "homepage": "https://www.drupal.org/user/420631"
+                },
+                {
+                    "name": "mrfelton",
+                    "homepage": "https://www.drupal.org/user/305669"
+                },
+                {
+                    "name": "TravisCarden",
+                    "homepage": "https://www.drupal.org/user/236758"
+                }
+            ],
+            "description": "The Seven theme from Drupal 8/9 moved to contrib",
+            "homepage": "https://www.drupal.org/project/seven",
+            "support": {
+                "source": "https://git.drupalcode.org/project/seven"
             }
         },
         {

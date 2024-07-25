@@ -1,19 +1,17 @@
-uuid: 0b465b10-8dcb-4a8e-b8aa-ce591333f1c2
+uuid: 2b1cc965-3ffc-442a-9d2e-fd3ca2147903
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.page.body
-    - field.field.node.page.field_author
-    - node.type.page
+    - field.field.node.journal.body
+    - field.field.node.journal.field_name
+    - node.type.journal
   module:
     - text
     - user
-_core:
-  default_config_hash: M_Y8L5tfmhx7DR143E05YyZSpvgil6VFvqcfBWykalg
-id: node.page.default
+id: node.journal.default
 targetEntityType: node
-bundle: page
+bundle: journal
 mode: default
 content:
   body:
@@ -21,19 +19,18 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 101
     region: content
-  field_author:
-    type: entity_reference_label
-    label: inline
-    settings:
-      link: true
+  field_name:
+    type: basic_string
+    label: above
+    settings: {  }
     third_party_settings: {  }
     weight: 102
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 101
+    weight: 100
     region: content
 hidden: {  }
