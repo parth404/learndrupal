@@ -10,11 +10,6 @@ dependencies:
     - media.type.hero_image
   module:
     - image
-    - layout_builder
-third_party_settings:
-  layout_builder:
-    enabled: false
-    allow_custom: false
 id: media.hero_image.small
 targetEntityType: media
 bundle: hero_image

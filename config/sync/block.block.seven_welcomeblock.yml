@@ -1,0 +1,25 @@
+uuid: 71713c0a-48d4-496f-89b8-f6fffc92cd63
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1ba3a5d2-31d7-4b43-a41a-44c577bdfceb'
+  module:
+    - block_content
+  theme:
+    - seven
+id: seven_welcomeblock
+theme: seven
+region: header
+weight: -7
+provider: null
+plugin: 'block_content:1ba3a5d2-31d7-4b43-a41a-44c577bdfceb'
+settings:
+  id: 'block_content:1ba3a5d2-31d7-4b43-a41a-44c577bdfceb'
+  label: 'Welcome Block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

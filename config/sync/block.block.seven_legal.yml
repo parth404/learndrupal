@@ -1,0 +1,25 @@
+uuid: 13a127d9-a822-4cf8-b3c9-283287dfbece
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.legal
+  module:
+    - system
+  theme:
+    - seven
+id: seven_legal
+theme: seven
+region: header
+weight: -9
+provider: null
+plugin: 'system_menu_block:legal'
+settings:
+  id: 'system_menu_block:legal'
+  label: Legal
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
