@@ -1,0 +1,29 @@
+uuid: 564302bb-3e3a-4877-8de4-0fd40ebfc048
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_keywords
+    - media.type.hero_image
+    - taxonomy.vocabulary.media_keywords
+id: media.hero_image.field_media_keywords
+field_name: field_media_keywords
+entity_type: media
+bundle: hero_image
+label: 'Media Keywords'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      media_keywords: media_keywords
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

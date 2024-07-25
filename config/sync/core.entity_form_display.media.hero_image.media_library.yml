@@ -1,0 +1,34 @@
+uuid: 8e608b00-54d9-4d3d-896c-bbac62bc1f88
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.hero_image.field_media_image_1
+    - field.field.media.hero_image.field_media_keywords
+    - image.style.thumbnail
+    - media.type.hero_image
+  module:
+    - image
+id: media.hero_image.media_library
+targetEntityType: media
+bundle: hero_image
+mode: media_library
+content:
+  field_media_image_1:
+    type: image_image
+    weight: -50
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+hidden:
+  created: true
+  directory: true
+  field_media_keywords: true
+  name: true
+  path: true
+  replace_file: true
+  status: true
+  uid: true

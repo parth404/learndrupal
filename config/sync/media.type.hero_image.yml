@@ -1,0 +1,14 @@
+uuid: bf063eac-0c2a-441d-b55b-8d98e5241cc1
+langcode: en
+status: true
+dependencies: {  }
+id: hero_image
+label: 'Hero Image'
+description: 'Upload images for hero style images at he top'
+source: image
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_media_image_1
+field_map:
+  name: name

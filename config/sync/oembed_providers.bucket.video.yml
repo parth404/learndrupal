@@ -1,0 +1,16 @@
+uuid: 8d888423-93eb-4f83-8279-6941cc6fe09a
+langcode: en
+status: true
+dependencies: {  }
+id: video
+label: video
+description: ''
+providers:
+  - Flickr
+  - Hulu
+  - Reddit
+  - SoundCloud
+  - Spotify
+  - TED
+  - Vimeo
+  - YouTube

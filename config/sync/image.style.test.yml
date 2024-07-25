@@ -1,0 +1,17 @@
+uuid: eda8b54e-f6f7-4ea1-806b-faea78511b05
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: test
+label: test
+effects:
+  54ec96a1-6366-4364-9462-fdabd7c98ac6:
+    uuid: 54ec96a1-6366-4364-9462-fdabd7c98ac6
+    id: focal_point_crop
+    weight: 1
+    data:
+      width: 400
+      height: 400
+      crop_type: focal_point

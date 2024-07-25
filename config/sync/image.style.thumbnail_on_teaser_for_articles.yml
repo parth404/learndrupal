@@ -1,0 +1,34 @@
+uuid: ff733e13-aa3d-4614-a2a7-146dc13c580b
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+    - iek
+name: thumbnail_on_teaser_for_articles
+label: 'Thumbnail on teaser for articles'
+effects:
+  33ab4e12-1393-4382-bde9-8c9b5eae8252:
+    uuid: 33ab4e12-1393-4382-bde9-8c9b5eae8252
+    id: iek_image_corner
+    weight: -9
+    data:
+      radius: '40'
+  e6d87357-95dd-419a-82d1-c964ca721b93:
+    uuid: e6d87357-95dd-419a-82d1-c964ca721b93
+    id: iek_image_border
+    weight: -8
+    data:
+      border_color: '#fff'
+      border_thick_top: '5'
+      border_thick_right: '5'
+      border_thick_bottom: '5'
+      border_thick_left: '5'
+  27ab1f5e-2f06-40e6-9527-1cdf7b9de883:
+    uuid: 27ab1f5e-2f06-40e6-9527-1cdf7b9de883
+    id: focal_point_crop
+    weight: -10
+    data:
+      width: 200
+      height: 200
+      crop_type: focal_point

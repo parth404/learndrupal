@@ -1,0 +1,9 @@
+uuid: fb751cbd-d5bd-4166-a9b7-07fdf644d503
+langcode: en
+status: true
+dependencies: {  }
+name: 'Media Keywords'
+vid: media_keywords
+description: 'keywords for all our media'
+weight: 0
+new_revision: false
