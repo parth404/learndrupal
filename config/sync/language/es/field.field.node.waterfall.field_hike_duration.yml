@@ -1,0 +1,4 @@
+label: 'Duración de la caminata (minutos)'
+description: 'Ingrese la duración de ida y vuelta de una caminata típica, en minutos'
+settings:
+  suffix: minutos

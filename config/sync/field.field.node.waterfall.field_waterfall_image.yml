@@ -13,7 +13,7 @@ bundle: waterfall
 label: 'Waterfall Image'
 description: 'Upload an image of the waterfall that is at least 500x500 pixels'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

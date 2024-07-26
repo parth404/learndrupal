@@ -1,0 +1,21 @@
+uuid: 27eaf124-fbc5-4555-ae13-deb230ea479d
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.location
+  module:
+    - text
+id: taxonomy_term.location.description
+field_name: description
+entity_type: taxonomy_term
+bundle: location
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

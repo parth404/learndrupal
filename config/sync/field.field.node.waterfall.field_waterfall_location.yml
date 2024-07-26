@@ -13,7 +13,7 @@ bundle: waterfall
 label: 'Waterfall location'
 description: 'Slect the general location of the waterfall'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

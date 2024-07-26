@@ -1,0 +1,20 @@
+uuid: fc8bf62a-b9fe-4692-ac45-6d5a48fb714a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.waterfall
+id: node.waterfall.uid
+field_name: uid
+entity_type: node
+bundle: waterfall
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

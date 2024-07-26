@@ -1,0 +1,20 @@
+uuid: e6cb0d9d-dc3c-48ca-830f-14139f82d103
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.waterfall
+  module:
+    - path
+id: node.waterfall.path
+field_name: path
+entity_type: node
+bundle: waterfall
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

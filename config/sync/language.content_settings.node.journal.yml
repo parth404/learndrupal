@@ -1,0 +1,18 @@
+uuid: 0b78f841-fa28-4069-844a-3cb8fc5caf68
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.journal
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.journal
+target_entity_type_id: node
+target_bundle: journal
+default_langcode: site_default
+language_alterable: false

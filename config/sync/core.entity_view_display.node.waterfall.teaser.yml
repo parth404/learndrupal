@@ -51,4 +51,5 @@ hidden:
   field_waterfall_height: true
   field_waterfall_location: true
   field_waterfall_video: true
+  langcode: true
   links: true

@@ -1,0 +1,21 @@
+uuid: 247152e8-95b4-4a71-a7e2-9b9d9572b86f
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.media_keywords
+  module:
+    - text
+id: taxonomy_term.media_keywords.description
+field_name: description
+entity_type: taxonomy_term
+bundle: media_keywords
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

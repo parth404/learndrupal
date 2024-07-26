@@ -38,3 +38,4 @@ hidden:
   field_local_audio: true
   field_local_video: true
   field_tags: true
+  langcode: true

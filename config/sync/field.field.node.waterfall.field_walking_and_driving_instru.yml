@@ -14,7 +14,7 @@ bundle: waterfall
 label: 'Walking and driving instructions'
 description: 'Details on how to arrive to waterfall'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

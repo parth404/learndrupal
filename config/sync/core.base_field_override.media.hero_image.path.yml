@@ -1,0 +1,20 @@
+uuid: f128e08b-6fc6-4538-a276-ef0257a3b53c
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.hero_image
+  module:
+    - path
+id: media.hero_image.path
+field_name: path
+entity_type: media
+bundle: hero_image
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

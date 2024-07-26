@@ -1,0 +1,4 @@
+label: 'Altura de la cascada (metros)'
+description: 'Introduce la altura de la cascada en metros.'
+settings:
+  suffix: metros

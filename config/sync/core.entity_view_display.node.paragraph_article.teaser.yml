@@ -40,3 +40,4 @@ content:
 hidden:
   comment: true
   field_hero_image: true
+  langcode: true

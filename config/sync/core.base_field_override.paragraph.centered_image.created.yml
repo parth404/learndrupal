@@ -1,0 +1,18 @@
+uuid: a9223c99-a01a-45ca-bf7a-7f7c39f1c828
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.centered_image
+id: paragraph.centered_image.created
+field_name: created
+entity_type: paragraph
+bundle: centered_image
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

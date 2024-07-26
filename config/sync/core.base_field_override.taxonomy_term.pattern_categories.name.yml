@@ -1,0 +1,18 @@
+uuid: 92e0280a-3da2-48c1-98ce-0f0469a95479
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.pattern_categories
+id: taxonomy_term.pattern_categories.name
+field_name: name
+entity_type: taxonomy_term
+bundle: pattern_categories
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

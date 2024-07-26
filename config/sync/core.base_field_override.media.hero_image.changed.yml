@@ -1,0 +1,18 @@
+uuid: b0d45bd6-2a61-4581-bc36-8f49cbb50b14
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.hero_image
+id: media.hero_image.changed
+field_name: changed
+entity_type: media
+bundle: hero_image
+label: Changed
+description: 'The time the media item was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

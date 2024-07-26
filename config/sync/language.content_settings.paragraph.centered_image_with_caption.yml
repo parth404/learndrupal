@@ -1,0 +1,18 @@
+uuid: 0e16fdf8-8a97-4eec-b9e8-b2a1b811a46f
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.centered_image_with_caption
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.centered_image_with_caption
+target_entity_type_id: paragraph
+target_bundle: centered_image_with_caption
+default_langcode: site_default
+language_alterable: false

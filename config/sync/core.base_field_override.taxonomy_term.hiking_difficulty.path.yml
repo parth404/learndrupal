@@ -1,0 +1,20 @@
+uuid: 1bdc8b6b-0d09-49f0-b77b-e69846562b3f
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.hiking_difficulty
+  module:
+    - path
+id: taxonomy_term.hiking_difficulty.path
+field_name: path
+entity_type: taxonomy_term
+bundle: hiking_difficulty
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

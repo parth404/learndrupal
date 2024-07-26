@@ -38,3 +38,4 @@ content:
     region: content
 hidden:
   field_pattern_sync_status: true
+  langcode: true

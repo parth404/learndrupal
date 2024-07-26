@@ -1,0 +1,20 @@
+uuid: fb65aa75-fdde-4231-947d-4c27edce0c08
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.paragraph_article
+id: node.paragraph_article.uid
+field_name: uid
+entity_type: node
+bundle: paragraph_article
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference
