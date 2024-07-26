@@ -1,0 +1,18 @@
+uuid: bedd209e-12c6-4948-8af8-c6684125ec72
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.reusable_block
+id: block_content.reusable_block.changed
+field_name: changed
+entity_type: block_content
+bundle: reusable_block
+label: Changed
+description: 'The time that the content block was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

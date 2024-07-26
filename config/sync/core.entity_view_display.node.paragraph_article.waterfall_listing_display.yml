@@ -26,3 +26,4 @@ hidden:
   field_body_text: true
   field_hero_image: true
   field_tags: true
+  langcode: true

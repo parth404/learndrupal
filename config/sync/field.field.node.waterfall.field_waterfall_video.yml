@@ -13,7 +13,7 @@ bundle: waterfall
 label: 'Waterfall video'
 description: 'A link to youtube or vimeo video which is rendered as a full video'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

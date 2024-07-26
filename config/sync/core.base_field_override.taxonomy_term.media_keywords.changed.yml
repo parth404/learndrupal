@@ -1,0 +1,18 @@
+uuid: c550b859-0e9d-4358-9440-884d6f6fb158
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.media_keywords
+id: taxonomy_term.media_keywords.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: media_keywords
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

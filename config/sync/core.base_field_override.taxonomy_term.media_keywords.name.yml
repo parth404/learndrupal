@@ -1,0 +1,18 @@
+uuid: dfbda85b-a391-444b-b949-b5b63cfc4878
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.media_keywords
+id: taxonomy_term.media_keywords.name
+field_name: name
+entity_type: taxonomy_term
+bundle: media_keywords
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

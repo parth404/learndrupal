@@ -67,3 +67,4 @@ hidden:
   field_image: true
   field_local_audio: true
   field_local_video: true
+  langcode: true

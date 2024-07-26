@@ -1,0 +1,22 @@
+uuid: 07ea441c-ca73-43d3-8eee-27388970578f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.waterfall
+id: node.waterfall.sticky
+field_name: sticky
+entity_type: node
+bundle: waterfall
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,20 @@
+uuid: f233eb24-4f56-4f3b-803a-377d93fe2477
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.journal
+  module:
+    - path
+id: node.journal.path
+field_name: path
+entity_type: node
+bundle: journal
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

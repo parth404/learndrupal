@@ -1,0 +1,22 @@
+uuid: ec157ef8-3752-4ed9-96a8-5201f70e3441
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.centered_image_with_caption
+id: paragraph.centered_image_with_caption.status
+field_name: status
+entity_type: paragraph
+bundle: centered_image_with_caption
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

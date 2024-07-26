@@ -12,7 +12,7 @@ bundle: waterfall
 label: 'Hike duration (minutes)'
 description: 'Enter the round-trip duration of a typical hike, in minutes'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

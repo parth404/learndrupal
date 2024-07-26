@@ -1,0 +1,22 @@
+uuid: 0c4f0b89-a7c2-417f-88b8-5bf925dfe245
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.hero_image
+id: media.hero_image.status
+field_name: status
+entity_type: media
+bundle: hero_image
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

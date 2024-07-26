@@ -1,0 +1,22 @@
+uuid: 192dfd6c-d75c-45e3-b025-4fe3f80a1188
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.journal
+id: node.journal.status
+field_name: status
+entity_type: node
+bundle: journal
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

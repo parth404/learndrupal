@@ -1,0 +1,18 @@
+uuid: f10609f9-3bde-44b2-85b7-02d76723a3b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.pros_and_cons
+id: paragraph.pros_and_cons.created
+field_name: created
+entity_type: paragraph
+bundle: pros_and_cons
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

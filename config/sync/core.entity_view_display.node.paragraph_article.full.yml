@@ -59,4 +59,5 @@ content:
     weight: 3
     region: content
 hidden:
+  langcode: true
   links: true

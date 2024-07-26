@@ -1,0 +1,18 @@
+uuid: 5977a910-a841-4218-b45c-b58744825635
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.paragraph_article
+id: node.paragraph_article.title
+field_name: title
+entity_type: node
+bundle: paragraph_article
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

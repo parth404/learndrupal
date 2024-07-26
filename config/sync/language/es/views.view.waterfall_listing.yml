@@ -1,0 +1,21 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Buscar
+          reset_button_label: reiniciar
+          exposed_sorts_label: 'Ordenar por'
+  page_1:
+    display_options:
+      filters:
+        field_waterfall_location_target_id:
+          expose:
+            label: 'Ubicación de la cascada'
+            description: 'seleccionar ubicación'
+        field_hike_difficulty_target_id:
+          expose:
+            label: 'Dificultad de la caminata'
+            description: 'elige tu desafío preferido'
+      menu:
+        title: 'Listado de cascadas'
